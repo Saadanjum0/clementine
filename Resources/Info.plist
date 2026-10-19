@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key><string>Clementine</string>
+    <key>CFBundleDisplayName</key><string>Clementine</string>
+    <key>CFBundleExecutable</key><string>Clementine</string>
+    <key>CFBundleIdentifier</key><string>app.clementine.converter</string>
+    <key>CFBundlePackageType</key><string>APPL</string>
+    <key>CFBundleIconFile</key><string>AppIcon</string>
+    <key>CFBundleShortVersionString</key><string>__VERSION__</string>
+    <key>CFBundleVersion</key><string>__VERSION__</string>
+    <key>LSMinimumSystemVersion</key><string>13.0</string>
+    <key>LSArchitecturePriority</key><array><string>x86_64</string><string>arm64</string></array>
+    <key>NSHighResolutionCapable</key><true/>
+    <key>LSUIElement</key><true/>
+    <key>NSAppleEventsUsageDescription</key><string>Clementine reads which files are selected in Finder when you press its shortcut, to open the wheel on them.</string>
+    <key>NSServices</key>
+    <array>
+        <dict>
+            <key>NSMenuItem</key><dict><key>default</key><string>Open in Clementine wheel</string></dict>
+            <key>NSMessage</key><string>openWheel</string>
+            <key>NSPortName</key><string>Clementine</string>
+            <key>NSRequiredContext</key><dict/>
+            <key>NSSendTypes</key><array><string>public.file-url</string></array>
+        </dict>
+    </array>
+</dict>
+</plist>
