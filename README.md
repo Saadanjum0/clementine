@@ -2,7 +2,7 @@
   <img src="docs/images/logo.png" width="128" alt="Clementine app icon">
 </p>
 
-<h1 align="center">Clementine aka Tangerine-clone</h1>
+<h1 align="center">Clementine(Tangerine clone but beter)</h1>
 
 <p align="center">
   <b>The zero-click file converter for macOS.</b><br>
